@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# react를 활용한 TodoList!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
