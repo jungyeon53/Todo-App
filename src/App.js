@@ -32,28 +32,6 @@ function todoReducer(todos, action){
 
 const App = () => {
   const [todos, dispatch] = useReducer(todoReducer, undefined, createBulkTodos);
-  // const [todos, setTodos] = useState(
-  //   [
-  //   {
-  //     id : 1,
-  //     text: '복습하기',
-  //     checked: true
-  //   },
-  //   {
-  //     id : 2,
-  //     text: '예습하기',
-  //     checked: true
-  //   },
-  //   {
-  //     id : 3,
-  //     text: '코딩하기',
-  //     checked: false
-  //   },
-  // ]
-
-  //   createBulkTodos()
-  // );
-
   const nextId = useRef(2501);
 
   // 추가
