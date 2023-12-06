@@ -19,10 +19,12 @@ const TodoInsert = ({onInsert}) => {
     )
 
     return (
-        <form className="TodoInsert" onSubmit={onSubmit}>
-            <input type="text" placeholder="할일을 입력하세요" value={value} onChange={onChange}/>
-            <button type="submit" > <IoMdAdd /></button>
-        </form>
+        <div className="insert-form">
+            <form className="TodoInsert" onSubmit={onSubmit}>
+                <input type="text" placeholder="할일을 입력하세요" value={value} onChange={onChange}/>
+                <button type="submit" > <IoMdAdd /></button>
+            </form>
+        </div>
     )
 }
 

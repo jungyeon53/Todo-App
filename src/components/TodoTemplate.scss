@@ -1,35 +1,31 @@
 .container {
-    width: 500px;
     margin: 0 auto;
+    background: white;
 }
 
-.TodoTemplate{
-    width: 100%;
-    margin-top: 6rem;
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.app-title{
-    background: #22b8cf;
-    color: white;
-    height: 4rem;
-    font-size: 1.5rem;
+.nav{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
 
+ul,
+li {
+    list-style: none;
+}
+.menu {
+    display: flex;
+    li{
+        padding: 20px 10px;
+    }
+}
+
+header{
+    width: 100%;
+    background: skyblue;
+    padding: 30px 50px;
+}
 .app-date{
-    background: #22b8cf;
-    color: white;
     font-size: 2rem;
     height: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content{
-    background: white;
 }

@@ -1,6 +1,15 @@
-.TodoInsert {
+.insert-form {
     display: flex;
-    background: rgb(185, 185, 185);
+    justify-content: center;
+}
+
+.TodoInsert {
+    width: 60%;
+    margin-top: 30px;
+    display: flex;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
 input {
@@ -10,6 +19,7 @@ input {
     font-size: 1.125rem;
     line-height: 2;
     color: black;
+    padding: 5px;
     &::placeholder{
         color: #333;
     }
@@ -30,5 +40,19 @@ button{
     transition: 0.1s background ease-in;
     &:hover{
         background: #adb5bd;
+    }
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+    .TodoInsert{
+        width: 80%;
     }
 }

@@ -2,4 +2,10 @@
     min-height: 320px;
     max-height: 513px;
     overflow-y: auto;
+    font-size: 1.3rem;
+}
+.TodoListWrap{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
