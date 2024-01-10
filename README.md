@@ -1,70 +1,31 @@
-# react를 활용한 TodoList!
+<h3 align="center">
+  TodoList
+</h3>
+<h4 align="center">작업기간: 2023.12.04 ~ 2023.12.06
+<h6 align="center">리액트로 구현한 TodoList</h6>
+<p align="center">
+  <img src="https://github.com/jungyeon53/hyundaicar/assets/150405152/59c37461-1871-4e1c-8b76-070ebb320efe" style="width:1200px">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="">Language</h2>
+<div align="">
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?&style=for-the-badge&logo=React&logoColor=white"/>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?&style=for-the-badge&logo=JavaScript&logoColor=white"/>
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?&style=for-the-badge&logo=CSS3&logoColor=white"/>
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?&style=for-the-badge&logo=HTML5&logoColor=white"/>
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## 리액트 세번째 프로젝트
+이 프로젝트는 리액트 교재를 참고하여 개발한 TodoList입니다. <br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 주요 학습 내용 
+- **useState:** 컴포넌트에서 상태를 관리하기 위해 사용되었습니다. Todo 항목의 추가, 삭제를 다룰 때 활용
+- **useRef:** 특정 DOM 요소에 접근하기 위해 사용, 예를 들어 특정 값에 이름을 줄 때 사용
+- **useEffect:** 초기 렌더링 시에만 실행되는 작업과 특정 상태 또는 변수가 변경될 때마다 실행되는 작업 등을 이해하게 되었습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 프로젝트에서의 경험
+이 프로젝트를 통해 다양한 리액트 훅을 실제로 사용해보며 각각의 역할과 활용법에 대해 익힐 수 있었습니다. <br />
+특히 useEffect의 활용은 초기 렌더링 이후에 비동기 작업을 수행하거나, 특정 상태가 변경될 때 추가 작업을 수행하는 등의 상황에서 유용하게 사용되었습니다. <br />
+이 프로젝트를 통해 리액트의 기초를 탄탄히 다지고, 효율적인 상태 및 렌더링 관리에 대한 이해를 높일 수 있었습니다.
